@@ -56,8 +56,8 @@ export const faqs = [
     a: 'Yes. PATS supports one-to-one voice and video calls in the browser. During a call you can mute, turn off the camera or switch between front and rear cameras.' },
   { id: 'groups', q: 'Can I create group chats?',
     a: 'Yes. Besides private messages you can create groups. Conversations you rarely use can be archived and restored later.' },
-  { id: 'parents', q: 'What can a parent account do?',
-    a: 'After linking to their child\u2019s student account, a parent can view the child\u2019s school violation and report records. Parent accounts are view-only and cannot chat.' },
+  { id: 'anyone', q: 'Who can use PATS?',
+    a: 'Anyone. PATS has no age, school or membership restrictions; all you need is a Google account or an email address. Students, workers, family and friends can all use it.' },
   { id: 'invite', q: 'Why does sign-up ask for an invite code?',
     a: 'Only when an administrator turns on invite codes, to make sure only members of a school or group can join. Ask your teacher or administrator for the code; otherwise the field is not shown.' },
   { id: 'data', q: 'Where is my data stored? Is it safe?',
@@ -86,7 +86,7 @@ const features = [
   { icon: '🖼️', title: 'Send and save photos', text: 'Take a photo or pick one from your gallery; it is compressed automatically. Open received photos full size and download them.' },
   { icon: '📞', title: 'Voice and video calls', text: 'Call right in the browser, with mute, camera off and front/rear camera switching. No extra software.' },
   { icon: '🔑', title: 'No phone number', text: 'Sign in with Google in one tap, or register with email and password. Your phone number stays private.' },
-  { icon: '👨‍👩‍👧', title: 'Parent accounts', text: 'Parents link to their child\u2019s student account to view school violation and report records.' },
+  { icon: '🌏', title: 'Open to everyone', text: 'No school or membership required. Anyone can sign up with a Google account or email and chat with family, friends or classmates.' },
   { icon: '🔄', title: 'Always up to date', text: 'New versions load automatically. No app store updates and no storage used on your phone.' }
 ];
 
@@ -95,7 +95,7 @@ const audience = [
   '<strong>Students</strong> whose phones cannot install apps, or who only use school computers or tablets',
   'People <strong>without a phone number</strong>, or who do not want to share it',
   'Anyone with <strong>low phone storage</strong> or an older phone that cannot run new apps',
-  '<strong>Parents</strong> who want to see their child\u2019s school violation and report records'
+  '<strong>Family members and older relatives</strong> who cannot install apps but can open a web address'
 ];
 
 const compareRows = [
@@ -104,7 +104,6 @@ const compareRows = [
   ['On a computer', 'Just open a browser', 'Usually a separate desktop app'],
   ['Phone storage', 'Almost none', 'Grows with chat history'],
   ['Price', 'Free', 'Mostly free'],
-  ['Parent view of violations', 'Yes (parent account)', 'Usually no'],
   ['Sticker store', 'No', 'Usually yes']
 ];
 
@@ -152,7 +151,7 @@ export const pages = {
         section('who', 'Who is PATS for?',
           '<p class="answer">If LINE or a regular chat app does not work for you, PATS is a simple alternative. It is especially useful for:</p>\n' + listHtml(audience, 'checklist'), 'alt') + '\n' +
         section('features', 'What can PATS do?',
-          '<p class="answer">PATS offers private and group chats, photo sending and downloading, voice and video calls, and a parent view of school violation records.</p>\n' + featuresHtml(features)) + '\n' +
+          '<p class="answer">PATS offers private and group chats, photo sending and downloading, voice and video calls, and anyone can sign up.</p>\n' + featuresHtml(features)) + '\n' +
         section('how', 'How do I start? (3 steps)',
           '<p class="answer">Open the site, create an account and add a contact. You can be chatting in about 3 minutes.</p>\n' + stepsHtml(steps.map(function (s) { return { name: s.name, html: s.html }; })) +
           '\n<p><a href="' + path(L, 'getStarted') + '">Read the full illustrated guide \u2192</a></p>', 'alt') + '\n' +
@@ -170,7 +169,7 @@ export const pages = {
 
   faq: {
     title: 'PATS FAQ | Free? Phone Number? Video Calls?',
-    description: 'PATS browser messenger FAQ: is it free, does it work without LINE or a phone number, which browsers work, how long photos are kept, parent accounts and data safety.',
+    description: 'PATS browser messenger FAQ: is it free, does it work without LINE or a phone number, which browsers work, how long photos are kept, who can use it and data safety.',
     type: 'faq',
     h1: 'PATS frequently asked questions',
     crumb: 'FAQ',
@@ -197,7 +196,7 @@ export const pages = {
         '<h2 id="m3">3. Social media direct messages</h2>\n<p>Instagram or Facebook can send DMs, but usually need an app, have age limits and come with feeds and ads.</p>\n' +
         '<h2 id="m4">4. School learning platforms</h2>\n<p>Some have comments or messages for homework and announcements, but rarely live chat, photos or video.</p>\n' +
         '<h2 id="m5">5. A no-install web messenger: PATS</h2>\n<p class="answer">PATS works in the browser with no app and no phone number, making it the closest alternative to LINE.</p>\n' +
-        listHtml(['Private and group chats with message search and archiving', 'Send photos straight from your camera and download received ones', 'One-to-one voice and video calls', 'Sign in from phones, tablets or school computers', 'Parent accounts can view a child\u2019s school violation and report records']) + '\n' +
+        listHtml(['Private and group chats with message search and archiving', 'Send photos straight from your camera and download received ones', 'One-to-one voice and video calls', 'Sign in from phones, tablets or school computers', 'Anyone can sign up: family, friends and classmates']) + '\n' +
         '<h2 id="compare">All 5 options compared</h2>\n' +
         tableHtml('Ways to keep in touch without LINE', ['Option', 'Phone number', 'Live chat', 'Photos', 'Groups', 'Video calls'], [
           ['Text and phone', 'Required', 'Yes', 'Awkward', 'Hard', 'Depends on phone'],
@@ -230,7 +229,7 @@ export const pages = {
         '<figure class="phone-shot"><img src="' + asset('img/app-login-mobile.webp') + '" alt="PATS sign-in screen on a phone" width="390" height="844" loading="lazy" decoding="async"><figcaption>PATS opened in a phone browser</figcaption></figure>\n' +
         listHtml(['<strong>iPhone (Safari)</strong>: tap Share, then \u201cAdd to Home Screen\u201d.', '<strong>Android (Chrome)</strong>: tap \u201c\u22ee\u201d at the top right, then \u201cAdd to Home screen\u201d.']) + '\n' +
         '<h2 id="next">What to do next</h2>\n' +
-        listHtml(['Create a group to work on projects with classmates', 'Send photos with the image button next to the message box', 'Start a voice or video call from the phone or camera icon at the top of a chat', 'Parents: link a parent account to your child to view violation and report records']) + '\n' +
+        listHtml(['Create a group to work on projects with classmates', 'Send photos with the image button next to the message box', 'Start a voice or video call from the phone or camera icon at the top of a chat', 'Invite family or friends: send them the address and ask them to sign up with Google']) + '\n' +
         '<h2 id="trouble">Troubleshooting</h2>\n' +
         listHtml(['<strong>No verification code?</strong> Check your spam folder, or sign in with Google instead.', '<strong>No sound or video in calls?</strong> Allow microphone and camera access in your browser.', '<strong>Something looks wrong?</strong> Refresh the page; the latest version loads automatically.']) + '\n' +
         ctaHtml({ title: 'Ready?', text: 'Open PATS and sign up with Google in one tap.', button: 'Open PATS' }) + '\n' +

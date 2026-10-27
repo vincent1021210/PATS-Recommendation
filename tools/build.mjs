@@ -352,7 +352,7 @@ function llmsTxt() {
     '- 費用 / Price: 免費 / Free\n' +
     '- 平台 / Platform: 任何現代瀏覽器（Chrome、Edge、Safari、Firefox），手機、平板、電腦皆可 / Any modern browser on phone, tablet or computer\n' +
     '- 註冊 / Sign-up: Google 帳號或電子郵件＋驗證碼，不需手機號碼；管理員可要求邀請碼 / Google account or email with verification code; no phone number; optional invite code\n' +
-    '- 功能 / Features: 私訊、群組、搜尋、封存、傳送與下載圖片（保留 20 天）、一對一語音與視訊通話、家長帳號查看違規與被舉報紀錄\n' +
+    '- 功能 / Features: 私訊、群組、搜尋、封存、傳送與下載圖片（保留 20 天）、一對一語音與視訊通話；任何人都能註冊使用 / Anyone can sign up\n' +
     '- 介面語言 / Interface language: 繁體中文 / Traditional Chinese\n' +
     '- 技術 / Stack: 前端 GitHub Pages 靜態網站，後端 Google Apps Script，資料存於 Google 試算表與雲端硬碟，全程 HTTPS\n\n' +
     '## 繁體中文\n\n' +

@@ -23,11 +23,11 @@ PATS 是一個在瀏覽器裡執行的通訊平台，不需要下載 App，也�
 - 學生：手機不能裝 App、只能用學校電腦或平板
 - 沒有手機號碼，或不想公開自己電話的人
 - 手機容量不足、舊手機裝不了新版 App
-- 家長：想了解孩子在校的違規與被舉報紀錄
+- 家人與長輩：不會裝 App，打開網址就能跟家人聊天
 
 ## PATS 有哪些功能？
 
-PATS 提供私訊、群組、傳送與下載圖片、語音與視訊通話，以及家長查看違規紀錄的功能。
+PATS 提供私訊、群組、傳送與下載圖片、語音與視訊通話，而且任何人都能註冊使用。
 
 ### 私訊與群組
 
@@ -45,9 +45,9 @@ PATS 提供私訊、群組、傳送與下載圖片、語音與視訊通話，以
 
 用 Google 帳號一鍵登入，或用電子郵件加密碼註冊，不必公開自己的電話。
 
-### 家長帳號
+### 誰都能用
 
-家長綁定孩子的學生帳號後，可以查看在校的違規與被舉報紀錄。
+不限學校或身分，任何人都能用 Google 帳號或電子郵件註冊，跟家人、朋友、同學都能聊。
 
 ### 自動更新
 
@@ -84,7 +84,6 @@ PATS 與一般通訊 App 比較
 | 在電腦上使用 | 打開瀏覽器就能用 | 通常要另外安裝電腦版 |
 | 佔用手機容量 | 幾乎不佔 | 會佔用並隨聊天紀錄增加 |
 | 費用 | 免費 | 多數免費 |
-| 家長查看違規紀錄 | 有（家長帳號） | 一般沒有 |
 | 貼圖商店 | 沒有 | 通常有 |
 
 ## PATS 有什麼限制？
@@ -136,7 +135,7 @@ PATS 免費使用，沒有付費方案，也沒有內購。只要有網路和瀏
 
 URL: https://vincent1021210.github.io/PATS-Recommendation/faq/
 
-整理 PATS 網頁通訊的常見問題：是否免費、沒有 LINE 能不能用、需不需要手機號碼、支援哪些瀏覽器、照片保留多久、家長帳號與資料安全。
+整理 PATS 網頁通訊的常見問題：是否免費、沒有 LINE 能不能用、需不需要手機號碼、支援哪些瀏覽器、照片保留多久、誰可以使用與資料安全。
 
 這裡整理大家最常問的 PATS 問題。簡單來說：PATS 免費、免安裝、不需要手機號碼，用瀏覽器就能私訊、建群組、傳照片和視訊通話。
 
@@ -176,9 +175,9 @@ PATS 免費使用，沒有付費方案，也沒有內購。只要有網路和瀏
 
 可以。除了一對一私訊，也能建立群組一起討論；不常用的對話可以封存，需要時再取消封存。
 
-### 家長帳號可以做什麼？
+### 誰可以使用 PATS？
 
-家長帳號綁定孩子的學生帳號後，可以查看孩子在校的違規與被舉報紀錄。家長帳號只用來查看紀錄，不參與聊天。
+任何人都可以使用。PATS 不限年齡、學校或身分，只要有 Google 帳號或電子郵件就能註冊，學生、上班族、家人朋友都能用。
 
 ### 註冊時為什麼要邀請碼？
 
@@ -233,7 +232,7 @@ PATS 用瀏覽器就能使用，不用安裝 App，也不需要手機號碼，�
 - 手機拍照直接傳送，收到的圖片可以下載保存
 - 一對一語音與視訊通話
 - 手機、平板、學校電腦都能登入
-- 家長帳號可以查看孩子在校的違規與被舉報紀錄
+- 任何人都能註冊，家人、朋友、同學都能用
 
 ## 5 種方法一次比較
 
@@ -301,7 +300,7 @@ URL: https://vincent1021210.github.io/PATS-Recommendation/guides/get-started/
 - 建立群組，和同學一起討論報告
 - 傳照片：點輸入框旁的圖片按鈕，可以拍照或從相簿選
 - 撥打語音或視訊通話：在對話上方點電話或攝影機圖示
-- 家長：使用家長帳號綁定孩子，查看違規與被舉報紀錄
+- 邀請家人或朋友：把網址傳給對方，請他用 Google 帳號註冊
 
 ## 遇到問題？
 - 收不到驗證碼：檢查垃圾郵件匣，或改用 Google 帳號登入。
@@ -337,11 +336,11 @@ If LINE or a regular chat app does not work for you, PATS is a simple alternativ
 - Students whose phones cannot install apps, or who only use school computers or tablets
 - People without a phone number, or who do not want to share it
 - Anyone with low phone storage or an older phone that cannot run new apps
-- Parents who want to see their child’s school violation and report records
+- Family members and older relatives who cannot install apps but can open a web address
 
 ## What can PATS do?
 
-PATS offers private and group chats, photo sending and downloading, voice and video calls, and a parent view of school violation records.
+PATS offers private and group chats, photo sending and downloading, voice and video calls, and anyone can sign up.
 
 ### Private and group chats
 
@@ -359,9 +358,9 @@ Call right in the browser, with mute, camera off and front/rear camera switching
 
 Sign in with Google in one tap, or register with email and password. Your phone number stays private.
 
-### Parent accounts
+### Open to everyone
 
-Parents link to their child’s student account to view school violation and report records.
+No school or membership required. Anyone can sign up with a Google account or email and chat with family, friends or classmates.
 
 ### Always up to date
 
@@ -398,7 +397,6 @@ PATS compared with a typical chat app
 | On a computer | Just open a browser | Usually a separate desktop app |
 | Phone storage | Almost none | Grows with chat history |
 | Price | Free | Mostly free |
-| Parent view of violations | Yes (parent account) | Usually no |
 | Sticker store | No | Usually yes |
 
 ## What are the limitations?
@@ -451,7 +449,7 @@ Open your browser, sign in with Google and chat with friends in under 3 minutes.
 
 URL: https://vincent1021210.github.io/PATS-Recommendation/en/faq/
 
-PATS browser messenger FAQ: is it free, does it work without LINE or a phone number, which browsers work, how long photos are kept, parent accounts and data safety.
+PATS browser messenger FAQ: is it free, does it work without LINE or a phone number, which browsers work, how long photos are kept, who can use it and data safety.
 
 The most common questions about PATS. In short: PATS is free, needs no install and no phone number, and lets you chat, create groups, share photos and make video calls in the browser.
 
@@ -491,9 +489,9 @@ Yes. PATS supports one-to-one voice and video calls in the browser. During a cal
 
 Yes. Besides private messages you can create groups. Conversations you rarely use can be archived and restored later.
 
-### What can a parent account do?
+### Who can use PATS?
 
-After linking to their child’s student account, a parent can view the child’s school violation and report records. Parent accounts are view-only and cannot chat.
+Anyone. PATS has no age, school or membership restrictions; all you need is a Google account or an email address. Students, workers, family and friends can all use it.
 
 ### Why does sign-up ask for an invite code?
 
@@ -552,7 +550,7 @@ PATS works in the browser with no app and no phone number, making it the closest
 - Send photos straight from your camera and download received ones
 - One-to-one voice and video calls
 - Sign in from phones, tablets or school computers
-- Parent accounts can view a child’s school violation and report records
+- Anyone can sign up: family, friends and classmates
 
 ## All 5 options compared
 
@@ -622,7 +620,7 @@ PATS opened in a phone browser
 - Create a group to work on projects with classmates
 - Send photos with the image button next to the message box
 - Start a voice or video call from the phone or camera icon at the top of a chat
-- Parents: link a parent account to your child to view violation and report records
+- Invite family or friends: send them the address and ask them to sign up with Google
 
 ## Troubleshooting
 - No verification code? Check your spam folder, or sign in with Google instead.
