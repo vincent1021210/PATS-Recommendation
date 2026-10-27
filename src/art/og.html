@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;width:1200px;height:630px;overflow:hidden}
+  body{font-family:"Microsoft JhengHei","Noto Sans TC","PingFang TC",system-ui,sans-serif;background:linear-gradient(135deg,#eff6ff 0%,#ffffff 55%,#e0e7ff 100%);color:#0f172a;display:flex;align-items:center;padding:0 72px;box-sizing:border-box;gap:56px}
+  .left{flex:1}
+  .brand{display:flex;align-items:center;gap:16px;font-size:40px;font-weight:800;margin-bottom:28px}
+  .mark{width:64px;height:64px}
+  h1{font-size:64px;line-height:1.18;margin:0 0 22px;letter-spacing:-.01em}
+  p{font-size:30px;color:#334155;margin:0 0 30px;line-height:1.5}
+  .chips{display:flex;gap:12px;flex-wrap:wrap}
+  .chip{background:#2563eb;color:#fff;font-weight:700;font-size:24px;padding:10px 20px;border-radius:999px}
+  .chip.alt{background:#fff;color:#1d4ed8;border:2px solid #bfdbfe}
+  .phone{width:300px;background:#fff;border-radius:36px;box-shadow:0 24px 60px rgba(15,23,42,.18);border:1px solid #e5e7eb;overflow:hidden}
+  .bar{padding:18px 22px;font-weight:700;font-size:20px;border-bottom:1px solid #e5e7eb;display:flex;gap:10px;align-items:center}
+  .dot{width:12px;height:12px;border-radius:50%;background:#22c55e}
+  .body{background:#f6f7fb;padding:18px;display:flex;flex-direction:column;gap:12px;height:330px}
+  .b{margin:0;padding:10px 14px;border-radius:18px;font-size:19px;max-width:85%;line-height:1.45}
+  .in{background:#fff;border:1px solid #e5e7eb;align-self:flex-start}
+  .out{background:#2563eb;color:#fff;align-self:flex-end}
+</style>
+</head>
+<body>
+  <div class="left">
+    <div class="brand"><img class="mark" src="../../assets/img/favicon.svg" alt="">PATS</div>
+    <h1>沒有 LINE，<br>也能跟大家聊天</h1>
+    <p>打開瀏覽器就能私訊、傳照片、視訊通話</p>
+    <div class="chips">
+      <span class="chip">免費</span><span class="chip">免安裝</span><span class="chip alt">不需手機號碼</span>
+    </div>
+  </div>
+  <div class="phone">
+    <div class="bar"><span class="dot"></span>同學群組</div>
+    <div class="body">
+      <p class="b in">明天報告的資料放上來了</p>
+      <p class="b out">收到！我沒有 LINE，還好有 PATS</p>
+      <p class="b in">晚上 8 點視訊？</p>
+      <p class="b out">OK，直接在網頁打給我</p>
+    </div>
+  </div>
+</body>
+</html>
