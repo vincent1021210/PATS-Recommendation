@@ -5,6 +5,7 @@ import {
 
 const L = 'zh-Hant';
 const APP = SITE.appUrl;
+const APK = SITE.origin + '/download/PATS.apk';
 
 export const ui = {
   lang: L,
@@ -28,6 +29,7 @@ export const ui = {
   footerTagline: '免安裝、不需手機號碼的網頁通訊工具。',
   footerLinks: [
     { href: APP, text: '開啟 PATS' },
+    { href: APK, text: '下載 Android APP' },
     { href: path(L, 'getStarted'), text: '使用教學' },
     { href: path(L, 'noLine'), text: '沒有 LINE 怎麼辦' },
     { href: path(L, 'faq'), text: '常見問題' },
@@ -43,7 +45,7 @@ export const faqs = [
   { id: 'no-line', q: '沒有 LINE 可以用 PATS 嗎？',
     a: '可以。PATS 是獨立的通訊平台，不需要 LINE、Messenger、WhatsApp 或任何其他通訊軟體，雙方都有 PATS 帳號就能互相傳訊息與通話。' },
   { id: 'no-install', q: '需要下載 App 嗎？',
-    a: '不需要。PATS 直接在瀏覽器裡執行，打開 vincent1021210.github.io 就能使用，不佔手機容量，也不用手動更新；網站推出新版時會自動更新。' },
+    a: '不需要。PATS 直接在瀏覽器裡執行，打開 vincent1021210.github.io 就能使用，不佔手機容量，也不用手動更新；網站推出新版時會自動更新。Android 手機若想像一般 App 一樣使用，也可以另外下載 PATS Android APP（APK），版面存在手機裡、開啟更快。' },
   { id: 'no-phone', q: '沒有手機號碼可以註冊嗎？',
     a: '可以。PATS 不需要手機號碼，用 Google 帳號一鍵註冊，或用電子郵件加密碼註冊（會寄 6 位數驗證碼到信箱確認）。' },
   { id: 'computer', q: '可以在電腦上用嗎？',
@@ -122,6 +124,7 @@ function heroHtml() {
     '<p class="lead">PATS 是免安裝的網頁通訊工具。打開瀏覽器、用 Google 帳號登入，就能私訊、建群組、傳照片，還能語音和視訊通話。</p>\n' +
     '<div class="hero-actions">\n<a class="btn btn-primary btn-lg" href="' + APP + '">免費開始使用</a>\n' +
     '<a class="btn btn-ghost btn-lg" href="' + path(L, 'getStarted') + '">看 3 分鐘教學</a>\n</div>\n' +
+    '<p class="hero-apk">Android 手機？<a href="' + APK + '">下載 PATS Android APP</a></p>\n' +
     listHtml(['手機、平板、電腦都能用', '不佔手機容量', '網站自動更新'], 'hero-facts') +
     '\n</div>\n' + mockupHtml() + '\n</div>\n</section>';
 }
