@@ -237,7 +237,7 @@ function header(lang, key) {
   const switchHref = path(o, key || 'home');
   return '<a class="skip" href="#main">' + c.ui.skip + '</a>\n' +
     '<header class="site-header">\n<div class="wrap header-row">\n' +
-    '<a class="brand" href="' + path(lang, 'home') + '" aria-label="PATS"><span class="brand-mark" aria-hidden="true">P</span>PATS</a>\n' +
+    '<a class="brand" href="' + path(lang, 'home') + '" aria-label="PATS"><img class="brand-mark" src="' + asset('img/logo-192.png') + '" width="36" height="36" alt="PATS">PATS</a>\n' +
     '<nav class="site-nav" aria-label="' + c.ui.navLabel + '">\n' +
     c.ui.nav.map(function (n) { return '<a href="' + n.href + '">' + n.text + '</a>'; }).join('\n') + '\n</nav>\n' +
     '<a class="lang-switch" href="' + switchHref + '" hreflang="' + o + '" lang="' + o + '" title="' + c.ui.switchTitle + '">' + c.ui.switchLabel + '</a>\n' +
