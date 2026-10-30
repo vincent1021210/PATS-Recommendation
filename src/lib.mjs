@@ -6,7 +6,7 @@ export const SITE = {
   appUrl: 'https://vincent1021210.github.io/',
   repoUrl: 'https://github.com/vincent1021210/PATS-Recommendation',
   published: '2026-10-27',
-  updated: '2026-10-27',
+  updated: '2026-10-30',
   brandColor: '#2563eb'
 };
 

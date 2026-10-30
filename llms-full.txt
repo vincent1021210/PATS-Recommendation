@@ -1,6 +1,6 @@
 # PATS — 全站內容 / Full site content
 
-最後更新 / Last updated: 2026-10-27
+最後更新 / Last updated: 2026-10-30
 
 ---
 
@@ -107,7 +107,7 @@ PATS 免費使用，沒有付費方案，也沒有內購。只要有網路和瀏
 
 ### 需要下載 App 嗎？
 
-不需要。PATS 直接在瀏覽器裡執行，打開 vincent1021210.github.io 就能使用，不佔手機容量，也不用手動更新；網站推出新版時會自動更新。Android 手機若想像一般 App 一樣使用，也可以另外下載 PATS Android APP（APK），版面存在手機裡、開啟更快。Windows 電腦也有 PATS 電腦版，可以開機自動啟動、收到新訊息時跳出桌面通知。
+不需要。PATS 直接在瀏覽器裡執行，打開 vincent1021210.github.io 就能使用，不佔手機容量，也不用手動更新；網站推出新版時會自動更新。iPhone 用 Safari 打開網站，點「分享」再選「加入主畫面」，之後就像一般 APP：全螢幕、畫面存在手機裡。Android 也可以下載 PATS Android APP（APK）。Windows 另有電腦版，可以開機自動啟動、收到新訊息時跳出桌面通知。
 
 ### 沒有手機號碼可以註冊嗎？
 
@@ -149,7 +149,7 @@ PATS 免費使用，沒有付費方案，也沒有內購。只要有網路和瀏
 
 ### 需要下載 App 嗎？
 
-不需要。PATS 直接在瀏覽器裡執行，打開 vincent1021210.github.io 就能使用，不佔手機容量，也不用手動更新；網站推出新版時會自動更新。Android 手機若想像一般 App 一樣使用，也可以另外下載 PATS Android APP（APK），版面存在手機裡、開啟更快。Windows 電腦也有 PATS 電腦版，可以開機自動啟動、收到新訊息時跳出桌面通知。
+不需要。PATS 直接在瀏覽器裡執行，打開 vincent1021210.github.io 就能使用，不佔手機容量，也不用手動更新；網站推出新版時會自動更新。iPhone 用 Safari 打開網站，點「分享」再選「加入主畫面」，之後就像一般 APP：全螢幕、畫面存在手機裡。Android 也可以下載 PATS Android APP（APK）。Windows 另有電腦版，可以開機自動啟動、收到新訊息時跳出桌面通知。
 
 ### 沒有手機號碼可以註冊嗎？
 
@@ -421,7 +421,7 @@ Yes. PATS is a standalone messaging platform. It does not need LINE, Messenger, 
 
 ### Do I need to download an app?
 
-No. PATS runs in your web browser at vincent1021210.github.io. It takes no storage on your phone, and new versions are applied automatically. On Android you can also install the optional PATS app (APK), which keeps the interface on your phone so it opens faster. There is also a Windows desktop app that can start with your computer and show desktop notifications for new messages.
+No. PATS runs in your web browser at vincent1021210.github.io. It takes no storage on your phone, and new versions are applied automatically. On iPhone, open the site in Safari, tap Share, then Add to Home Screen — it then opens full-screen like an app, with the interface stored on your phone. On Android you can also install the optional PATS app (APK). There is also a Windows desktop app that can start with your computer and show desktop notifications for new messages.
 
 ### Can I sign up without a phone number?
 
@@ -463,7 +463,7 @@ Yes. PATS is a standalone messaging platform. It does not need LINE, Messenger, 
 
 ### Do I need to download an app?
 
-No. PATS runs in your web browser at vincent1021210.github.io. It takes no storage on your phone, and new versions are applied automatically. On Android you can also install the optional PATS app (APK), which keeps the interface on your phone so it opens faster. There is also a Windows desktop app that can start with your computer and show desktop notifications for new messages.
+No. PATS runs in your web browser at vincent1021210.github.io. It takes no storage on your phone, and new versions are applied automatically. On iPhone, open the site in Safari, tap Share, then Add to Home Screen — it then opens full-screen like an app, with the interface stored on your phone. On Android you can also install the optional PATS app (APK). There is also a Windows desktop app that can start with your computer and show desktop notifications for new messages.
 
 ### Can I sign up without a phone number?
 

@@ -31,6 +31,7 @@ export const ui = {
   footerLinks: [
     { href: APP, text: 'Open PATS' },
     { href: APK, text: 'Android app' },
+    { href: APP, text: 'Add to iPhone Home Screen' },
     { href: WIN, text: 'Windows app' },
     { href: path(L, 'getStarted'), text: 'Get started' },
     { href: path(L, 'noLine'), text: 'No LINE?' },
@@ -47,7 +48,7 @@ export const faqs = [
   { id: 'no-line', q: 'Can I use PATS without LINE?',
     a: 'Yes. PATS is a standalone messaging platform. It does not need LINE, Messenger, WhatsApp or any other chat app; both people just need a PATS account.' },
   { id: 'no-install', q: 'Do I need to download an app?',
-    a: 'No. PATS runs in your web browser at vincent1021210.github.io. It takes no storage on your phone, and new versions are applied automatically. On Android you can also install the optional PATS app (APK), which keeps the interface on your phone so it opens faster. There is also a Windows desktop app that can start with your computer and show desktop notifications for new messages.' },
+    a: 'No. PATS runs in your web browser at vincent1021210.github.io. It takes no storage on your phone, and new versions are applied automatically. On iPhone, open the site in Safari, tap Share, then Add to Home Screen — it then opens full-screen like an app, with the interface stored on your phone. On Android you can also install the optional PATS app (APK). There is also a Windows desktop app that can start with your computer and show desktop notifications for new messages.' },
   { id: 'no-phone', q: 'Can I sign up without a phone number?',
     a: 'Yes. PATS never asks for a phone number. Sign up with one tap using a Google account, or with an email address and password (confirmed by a 6-digit code sent to your inbox).' },
   { id: 'computer', q: 'Does PATS work on a computer?',
@@ -129,7 +130,7 @@ function heroHtml() {
     '<p class="lead">PATS is a messenger that runs in your browser. Sign in with Google to send private and group messages, share photos, and make voice and video calls.</p>\n' +
     '<div class="hero-actions">\n<a class="btn btn-primary btn-lg" href="' + APP + '">Start free</a>\n' +
     '<a class="btn btn-ghost btn-lg" href="' + path(L, 'getStarted') + '">3-minute guide</a>\n</div>\n' +
-    '<p class="hero-apk">On Android? <a href="' + APK + '">Download the PATS Android app</a> · On Windows? <a href="' + WIN + '">Download the desktop app</a></p>\n' +
+    '<p class="hero-apk">Android? <a href="' + APK + '">Get the app</a> · iPhone? <a href="' + APP + '">Add to Home Screen</a> · Windows? <a href="' + WIN + '">Get the desktop app</a></p>\n' +
     listHtml(['Works on phone, tablet and computer', 'Uses no phone storage', 'Updates itself'], 'hero-facts') +
     '\n</div>\n' + mockupHtml() + '\n</div>\n</section>';
 }
